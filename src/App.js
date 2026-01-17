@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import Support from './pages/Support';
+import DeleteAccount from './pages/DeleteAccount';
+import DataDeletion from './pages/DataDeletion';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<TermsOfService />} />
             <Route path="/support" element={<Support />} />
+            <Route path="/delete-account" element={<DeleteAccount />} />
+            <Route path="/data-deletion" element={<DataDeletion />} />
           </Routes>
         </main>
         <Footer />

@@ -109,6 +109,14 @@ function Support() {
                 <span className="link-icon">📜</span>
                 <span>Terms of Service</span>
               </a>
+              <a href="/delete-account" className="quick-link">
+                <span className="link-icon">🗑️</span>
+                <span>Delete Account</span>
+              </a>
+              <a href="/data-deletion" className="quick-link">
+                <span className="link-icon">📋</span>
+                <span>Data Deletion</span>
+              </a>
             </div>
           </section>
 
