@@ -55,6 +55,20 @@ function Header() {
           >
             Support
           </Link>
+          <Link 
+            to="/delete-account" 
+            className={`nav-link ${isActive('/delete-account') ? 'active' : ''}`}
+            onClick={() => setMenuOpen(false)}
+          >
+            Delete Account
+          </Link>
+          <Link 
+            to="/data-deletion" 
+            className={`nav-link ${isActive('/data-deletion') ? 'active' : ''}`}
+            onClick={() => setMenuOpen(false)}
+          >
+            Data Deletion
+          </Link>
         </nav>
       </div>
     </header>
